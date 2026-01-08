@@ -1,0 +1,10 @@
+dev/danvega/mfa/totp/UserStore.class
+dev/danvega/mfa/totp/TotpService.class
+dev/danvega/mfa/totp/User.class
+dev/danvega/mfa/totp/TotpUserDetails.class
+dev/danvega/mfa/LoginController.class
+dev/danvega/mfa/totp/TotpAuthenticationHandler.class
+dev/danvega/mfa/totp/TotpController.class
+dev/danvega/mfa/HomeController.class
+dev/danvega/mfa/SecurityConfig.class
+dev/danvega/mfa/Application.class
