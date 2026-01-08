@@ -2,6 +2,16 @@
 
 A minimal, clean example of implementing Multi-Factor Authentication (MFA) in Spring Boot 4 using Spring Security 7's `@EnableMultiFactorAuthentication` with TOTP (Time-based One-Time Passwords) compatible with Google Authenticator, Authy, 1Password, and other authenticator apps.
 
+
+![MFA TOTP 1](./screenshots/mfa_01.png)
+
+![MFA TOTP 2](./screenshots/mfa_02.png)
+
+![MFA TOTP 3](./screenshots/mfa_03.png)
+
+![MFA TOTP 4](./screenshots/mfa_04.png)
+
+
 ## Quick Start
 
 ### Prerequisites
