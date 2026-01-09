@@ -2,6 +2,7 @@ package dev.danvega.mfa.totp;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.jspecify.annotations.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -19,8 +20,8 @@ public class TotpAuthenticationHandler implements AuthenticationSuccessHandler {
     public static final String TOTP_AUTHORITY = "FACTOR_TOTP";
 
     @Override
-    public void onAuthenticationSuccess(HttpServletRequest request,
-                                        HttpServletResponse response,
+    public void onAuthenticationSuccess(@NonNull HttpServletRequest request,
+                                        @NonNull HttpServletResponse response,
                                         Authentication authentication) throws IOException {
 
         var userDetails = (TotpUserDetails) authentication.getPrincipal();

@@ -19,7 +19,7 @@
     <description>Spring Security 7 MFA with TOTP Authenticator App Support</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
         <jte.version>3.1.16</jte.version>
     </properties>
 
